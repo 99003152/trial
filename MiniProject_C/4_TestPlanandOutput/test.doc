@@ -1,1 +1,17 @@
+TEST PLAN:
+1.	Encrypt a message using Caeser cipher encryption algorithm.
+2.	Decrypt the encrypted message using Caeser cipher decryption algorithm.
+3.	Compare initial message and the decrypted message.
+4.	Pass the test case when initial and decrypted messages are same.
+5.	Fail the test case when initial and decrypted messages are not same.
+
+
+TEST CASES:
+SL. No	PLAIN TEXT (INPUT)	       CIPHER TEXT (ENCRYPTED OUTPUT)	     PLAIN TEXT (DECRYPTED OUTPUT)
+1	      hello             	       KHOOR	                             hello
+2	      chaitanya	                 FKDLWDQBD	                         chaitanya
+3	      l&t technology services  	 O&W WHFKQRORJB VHUYLFHV	           l&t technology services
+4	      embedded123            	   HPEHGGHG123	                       embedded123
+5	      life_long_learning	       OLIH_ORQJ_OHDUQLQJ                  life_long_learning
+
 
