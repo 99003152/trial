@@ -1,1 +1,7 @@
+	REQUIREMENTS:
+  Plaintext: this is the original intelligible message or data that is fed into the algorithm as input.
+	Encryption algorithm: the algorithm performs substitution on the plaintext.
+	Secret key: this is the input to the encryption algorithm. Its value is independent of the plaintext and the algorithm. The algorithm produces output depending on the value of this key.
+	Ciphertext: this is the scrambled message produced as the output. It’s a random stream of data and is unintelligible [4].
+	Decryption algorithm: this is essentially the encryption algorithm run in reverse. The output of the algorithm is the original plaintext.
 
