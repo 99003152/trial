@@ -14,7 +14,7 @@ int menu();
 
 int main(void)
 {
-char choice[2], s[MAXSIZE];
+char choice[2], s[MAXSIZE];      /*choice helps to select between encryption and decryption for the user*/
 
  while(1)
  {
@@ -24,13 +24,13 @@ char choice[2], s[MAXSIZE];
 
  if((choice[0]=='e')||(choice[0]=='E'))
  {
-  puts("Input text to encrypt->");
+  puts("Input text to encrypt (encrypts lowerCase only)->");
   gets(s);
   encrypt(s);
  }
  else if((choice[0]=='d')||(choice[0]=='D'))
  {
-  puts("Input text to decrypt->");
+  puts("Input text to decrypt decrypts upperCase only)->");
   gets(s);
   decrypt(s);
  }
@@ -41,7 +41,7 @@ test_main();
  return 0;
 }
 
-
+/* menu prints to screen the available options to users */
 int menu()
 {
  puts("To encrypt, input e or E\n");
