@@ -20,6 +20,11 @@ DOCUMENTATION_OUTPUT = document/html
 # Call 'make run' to run the application	
 run:$(PROJECT_NAME)
 	./$(PROJECT_NAME)
+	
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT)
 
 # Document files using Doxygen
 doc:
