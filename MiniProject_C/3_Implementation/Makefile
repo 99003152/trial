@@ -5,9 +5,8 @@ test/test_cipher.c\
 main.c\
 
 # All include folders with header files
-INC = -Iunity\
--Iinc\
--Itest
+# All include folders with header files
+INC	= -Iinc
 
 # Name of the project
 PROJECT_NAME = CIPHER.exe
